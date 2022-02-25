@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-.card {
+/* .card {
   background: #000000d0;
   color: white;
   padding: 2em;
@@ -79,7 +79,7 @@ h1.temp {
   position: absolute;
   top: 0;
   left: 20px;
-}
+} */
 a {
   text-decoration: none;
   color: green;
@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 20px 0;
   z-index: 10;
   position: relative;
+  
 }
 #header .logo h1 {
   font-size: 36px;
@@ -203,8 +204,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 2px;
 }
 .nav-toggle i {
-  color: #fff;
-  font-size: 18px;
+  color: brown;
+  font-size: 30px;
 }
 
 .nav-toggle-active {
@@ -617,7 +618,7 @@ section {
 }
 .why-us .card-icon {
   text-align: center;
-  margin-top: -32px;
+  margin-top: -45px;
   padding-top: 15px;
 }
 .why-us .card-icon i {
