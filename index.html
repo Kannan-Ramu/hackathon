@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Farmers' Portal</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
+  <title>Farmers' Portal</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -22,270 +23,217 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
-      rel="stylesheet"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
 
-    <!-- Vendor CSS Files -->
-    
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+ 
 
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- =======================================================
+  <!-- =======================================================
   * Template Name: Siimple - v4.6.0
   * Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js"></script>
-  </head>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-database.js"></script>
+</head>
 
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header">
-      <div class="container-fluid">
-        <div class="logo">
-          <!-- <h1><a href="index.html"></a></h1> -->
-          <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html"
-            ><img
-              src="https://i0.wp.com/www.climatefarmers.org/wp-content/uploads/2021/08/Climate-Farmers_Cooperation.png?resize=601%2C600&ssl=1"
-              alt=""
-              class="img-fluid"
-          /></a>
-        </div>
-
-        <button type="button" class="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </button>
-        <nav class="nav-menu">
-          <ul>
-            <li class="active"><a href="#header" class="scrollto">Home</a></li>
-            <li><a href="faq.html" class="scrollto">Faq</a></li>
-            <li><a href="notifs.html" class="scrollto">Notifications</a></li>
-            <li><a href="#about" class="scrollto">About Us</a></li>
-          </ul>
-        </nav>
-        <!-- .nav-menu -->
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" >
+    <div class="container-fluid">
+      <div class="logo" >
+        <!-- <h1><a href="index.html"></a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img
+            src="https://i0.wp.com/www.climatefarmers.org/wp-content/uploads/2021/08/Climate-Farmers_Cooperation.png?resize=601%2C600&ssl=1"
+            alt="" class="img-fluid" /></a>
       </div>
-    </header>
-    <!-- End #header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero">
-      <div class="hero-container">
-        <h1>Welcome to Farmers' Portal</h1>
-        <br />
+      <button type="button" class="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </button>
+      <nav class="nav-menu">
+        <ul>
+          <li class="active"><a href="#header" class="scrollto">Home</a></li>
+          <li><a href="faq.html" class="scrollto">Faq</a></li>
+          <li><a href="notifs.html" class="scrollto">Notifications</a></li>
+          <li><a href="#about" class="scrollto">About Us</a></li>
+        </ul>
+      </nav>
+      <!-- .nav-menu -->
+    </div>
+  </header>
+  <!-- End #header -->
 
-        <h2>
-          Please, fill out the form below to be notified for the latest updates
-          on Farming!
-        </h2>
-        <br />
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Farmers' Portal</h1>
+      <br />
 
-        <form
-          action=""
-          method="post"
-          role="form"
-          class="php-email-form"
-          name="contactForm"
-           id="contactForm"
-           size="10"
-        >
-          <div class="row no-gutters">
-            <div
-              class="col-md-6 form-group pr-md-1"
-              style="margin-bottom: 15px"
-            >
-              <input
-                type="text"
-                name="name"
-                class="form-control"
-                id="name"
-                placeholder="Your Mobile Number"
-                required
-              />
-            </div>
-            <div class="col-md-6 form-group pl-md-1">
-              <input
-                type="email"
-                class="form-control"
-                name="email"
-                id="email"
-                placeholder="Enter Your email"
-                required
-              />
-            </div>
+      <h2>
+        Please, fill out the form below to be notified for the latest updates
+        on Farming!
+      </h2>
+      <br />
+      
+      <form action="" method="post" role="form" class="php-email-form" name="contactForm" id="contactForm" size="10">
+        <div class="row no-gutters">
+          <div class="col-md-6 form-group pr-md-1" style="margin-bottom: 15px">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Mobile Number" required />
           </div>
-
-          <div class="my-3">
+          <div class="col-md-6 form-group pl-md-1">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your email" required />
+          </div>
+        </div>
+        
+        <!-- <div class="my-3">
           <div class="loading">Loading</div>
           <div class="error-message"></div>
           <div class="send-message">Successfully Registered!</div>
+        </div> -->
+        <div class="text-center">
+          <button type="submit">Notify me!</button>
         </div>
-          <div class="text-center">
-            <button  class="button" type="submit"  href="signup.html">Notify me!</button>
+      </form>
+    </div>
+  </section>
+  <!-- #hero -->
+  
+  <main id="main">
+    <!-- ======= Faq Section ======= -->
+    <section id="" class="faq">
+      <a href="faq.html#faq">
+        <h3 style="text-align: center;">Head over to the FAQ page</h3>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 text-center">
+
           </div>
-        </form>
+        </div>
       </div>
     </section>
-    <!-- #hero -->
+    <!-- =======End Faq Section ======= -->
 
-    <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="" class="faq">
-        <a href="faq.html#faq"><h3  style="text-align: center;">Head over to the FAQ page</h3></a>
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 pt-4 pt-lg-0 text-center">
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- ======= About Us Section ======= -->
-      <section id="about" class="why-us section-bg">
-        <div class="container">
-          <div class="row">
-            <!-- <div class="col-lg-6 pt-4 pt-lg-0">
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            
-           
-          </div> -->
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="bx bx-book-reader"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="">Our Mission</a></h5>
-                  <p class="card-text">
-                    To encourage youth on rural development and aware about 
- farming.Aims to impart a technical education in agriculture
- to enhance quality life to farmers with profits and aware
- about current innovations
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="bx bx-calendar-edit"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="">Our Plan</a></h5>
-                  <p class="card-text">
-                    Through this website,Agristudents and farmers can air 
-                    their queries and concerns to each other and the questions
-                    are answered by people who have certified expertise.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-              <div class="card">
-                <div class="card-icon">
-                  <i class="bx bx-landscape"></i>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title"><a href="">Our Vision</a></h5>
-                  <p class="card-text">
-                    To be the leading website,which serves farmers and every citizen who are interested in farming in every possible way
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Us Section -->
-      <section
-        id="testing"
-        class="why-us section-bg"
-        style="background-color: white"
-      >
-        <div class="container">
-          <h1 style="text-align: center; padding: 50px; font-weight: 900">
-            <a href="notifs.html">Updates</a>
-          </h1>
-
-          <div class="row testing1"></div>
-        </div>
-      </section>
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
+    <!-- Notifs Section -->
+    <section id="testing" class="why-us section-bg" style="background-color:#fff7f2">
       <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Enigma</span></strong
-          >. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-landing-page/ -->
-          Designed by  Enigma
+        <h1 style="text-align: center; padding: 50px; font-weight: 900">
+          <a href="notifs.html">New Updates!</a>
+        </h1>
+  
+        <div class="row testing1"></div>
+      </div>
+    </section>
+  
+    <!-- End Notif Section -->
+
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="why-us ">
+      <div class="container">
+        <h1 style="text-align: center; padding: 50px; font-weight: 900">About Us</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bx bx-book-reader"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Mission</a></h5>
+                <p class="card-text">
+                  To encourage youth on rural development and bring awareness about
+                  farming.Aiming to impart technical education in the field of agriculture.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="card">
+              <div class="card-icon">
+                <i class="bx bx-landscape"></i>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title"><a href="">Our Vision</a></h5>
+                <p class="card-text">
+                  To be the leading website,which serves farmers and every citizen who are interested in farming in
+                  every way possible.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <!-- End #footer -->
+    </section>
+    <!-- End About Us Section -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-    <script>
-      var firebaseConfig = {
-        apiKey: "AIzaSyCQR7_B-8i6eRSJzdjq3cYsZ4o1xtLSc08",
-        authDomain: "hackathon-9a101.firebaseapp.com",
-        databaseURL: "https://hackathon-9a101-default-rtdb.firebaseio.com",
-        projectId: "hackathon-9a101",
-        storageBucket: "hackathon-9a101.appspot.com",
-        messagingSenderId: "1053508331058",
-        appId: "1:1053508331058:web:64170e91fc6778e97fbe2b",
-        measurementId: "G-Q41JB5Z8HW",
-      };
-      firebase.initializeApp(firebaseConfig);
-      var firebaseRef = firebase.database().ref("infos");
-      firebaseRef.once("value", function (snapshot) {
-        var data = snapshot.val();
-        let lis=Object.keys(data);
-        let lis2=Object.values(data);
-        for (let i = 0; i < 3; i++) {
-          document.querySelector(".testing1").innerHTML += `
+  </main>
+
+
+
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Enigma</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-landing-page/ -->
+        Designed by Enigma
+      </div>
+    </div>
+  </footer>
+  <!-- End #footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyCQR7_B-8i6eRSJzdjq3cYsZ4o1xtLSc08",
+      authDomain: "hackathon-9a101.firebaseapp.com",
+      databaseURL: "https://hackathon-9a101-default-rtdb.firebaseio.com",
+      projectId: "hackathon-9a101",
+      storageBucket: "hackathon-9a101.appspot.com",
+      messagingSenderId: "1053508331058",
+      appId: "1:1053508331058:web:64170e91fc6778e97fbe2b",
+      measurementId: "G-Q41JB5Z8HW",
+    };
+    firebase.initializeApp(firebaseConfig);
+    var firebaseRef = firebase.database().ref("infos");
+    firebaseRef.once("value", function (snapshot) {
+      var data = snapshot.val();
+      let lis = Object.keys(data);
+      let lis2 = Object.values(data);
+      for (let i = 0; i < 3; i++) {
+        document.querySelector(".testing1").innerHTML += `
           <div class="col-lg-12">
             <div>
             <h3 style="font-family: Times Roman ;text-align:center;">${lis[i].toUpperCase()}: ${lis2[i]}</h3>
@@ -295,16 +243,17 @@
             
             
           `;
-        }
-      });
-    </script>
+      }
+    });
+  </script>
 
-    <!-- Template Main JS File -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-    <script src="main123.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!-- Template Main JS File -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="main123.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
